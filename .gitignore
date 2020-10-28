@@ -1,0 +1,30 @@
+# Logs
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Common
+.DS_Store
+.idea
+
+# Directories
+node_modules/
+
+# Cache
+.cache
+.eslintcache
+.npm
+
+# Gridsome
+dist
+src/.temp
+
+# Environments
+.env
+.env.*
+
+# Custom
+theme/tailwind.config.default.js
+theme/tailwind.config.v2.js
